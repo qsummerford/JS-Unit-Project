@@ -9,18 +9,44 @@
 .logo {
   height: 5%;
   width: 5%;
-  justify-content: space-evenly;
   margin-left: 4px;
+  cursor: pointer;
 }
 
 .links {
   margin-top: 15px;
   margin-left: 50px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 body,
 html {
   padding: 0;
   margin: 0;
+}
+
+.person {
+  height: auto;
+  width: 4%;
+  margin-left: 950px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.person:hover {
+  border: 1px solid grey;
+  background-color: grey;
+  border-radius: 2em;
+}
+
+.sign_in {
+  display: none;
+}
+
+.straight_away {
+  margin-left: 50px;
+  width: 1350px;
+  height: 400px;
+  border-radius: 0 0 0.4em 0.4em;
+  box-shadow: 3px 3px 13px 9px black;
 }
