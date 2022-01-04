@@ -8,17 +8,71 @@
   </head>
   <header class="nav_bar">
     <img src="images/auto_logo.png" class="logo" />
-    <a class="links">Shop</a>
-    <a class="links">Sell/Trade</a>
-    <a class="links">Finance</a>
-    <a><img src="images/sign_in_button.png" class="person" /></a>
-    <div class="sign_in">
-      <p>Sign In</p>
-      <p>Register</p>
-    </div>
+    <a href="index.html" class="links">Shop</a>
+    <a href="sell.html" class="links">Sell/Trade</a>
+    <a href="finance.html" class="links">Finance</a>
+    <a
+      ><img src="images/sign_in_button.png" class="person" />
+      <select id="sign_in">
+        <a><option>Sign In</option></a>
+        <a><option>Register</option></a>
+      </select></a
+    >
   </header>
   <body>
     <img src="images/straight_away.jpeg" class="straight_away" />
+    <br />
+    <br />
+    <br />
+    <br />
+    <h3 class="shop_type">Shop By Type</h3>
+    <div class="flex_box">
+      <div id="prev">
+        <div class="column">
+          <section class="car_type">
+            <img src="images/pickup_truck_pic.svg" class="pickup_pic" />
+            <p>Trucks</p>
+          </section>
+        </div>
+        <div class="column">
+          <section class="car_type">
+            <img src="images/suv.svg" class="suv_pic" />
+            <p>SUVs</p>
+          </section>
+        </div>
+        <div class="column">
+          <section class="car_type">
+            <img src="images/sedan.svg" class="sedan_pic" />
+            <p>Sedans</p>
+          </section>
+        </div>
+        <div class="column">
+          <section class="car_type">
+            <img src="images/crossovers.svg" class="cross_pic" />
+            <p>Crossovers</p>
+          </section>
+        </div>
+      </div>
+      <img src="images/next_arrow.jpg" class="next_img" id="next_arrow" />
+      <div id="next">
+        <div class="column">
+          <section class="car_type">
+            <img src="images/coupes.svg" class="coupe_pic" />
+            <p>Coupes</p>
+          </section>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <h3 class="shop_brand">Shop By Brand</h3>
+    <br />
+    <br />
+    <br />
+    <br />
+    <h3 class="shop_price">Shop By Price</h3>
   </body>
   <script src="main.js"></script>
 </html>
