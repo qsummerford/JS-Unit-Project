@@ -58,7 +58,7 @@ html {
 }
 
 .straight_away {
-  width: 1500px;
+  width: 1440px;
   height: 350px;
   border-radius: 0 0 0.4em 0.4em;
 }
@@ -135,12 +135,59 @@ html {
   border-radius: 2em;
 }
 
-#prev {
+.prev {
   display: flex;
   text-align: center;
 }
 
-#next {
+.next {
   display: flex;
   text-align: center;
+}
+
+.prev_img {
+  height: 8%;
+  width: 8%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.prev_img:hover {
+  box-shadow: 2px 2px 2px 2px #c4c4c4;
+  border-radius: 2em;
+}
+
+.sports_pic {
+  height: 40%;
+  width: 40%;
+}
+
+.lux_pic {
+  height: 40%;
+  width: 40%;
+}
+
+.van_pic {
+  height: 40%;
+  width: 40%;
+}
+
+.diesel_pic {
+  height: 40%;
+  width: 40%;
+}
+
+.electric_pic {
+  height: 40%;
+  width: 40%;
+}
+
+.convert_pic {
+  height: 40%;
+  width: 40%;
+}
+
+.wagons_pic {
+  height: 40%;
+  width: 40%;
 }
