@@ -10,28 +10,93 @@
     <img src="images/auto_logo.png" class="logo" />
     <a href="index.html" class="links">Shop</a>
     <a href="sell.html" class="links">Sell/Trade</a>
-    <a class="links">Finance</a>
+    <a href="finance.html" class="links">Finance</a>
     <a
       ><img src="images/sign_in_button.png" class="person" />
       <select id="sign_in">
         <a><option>Sign In</option></a>
         <a><option>Register</option></a>
-      </select></a>
+      </select></a
+    >
   </header>
-  <body>  
-    <a class = "links" class = "finance">Payment Plan</a>
-    <a class = "links" class = "finance">Budget Creator</a>
-    <form>
-    <p>Lets Personalize A Budget for You!</p>
-    <div>How much are you willing to pay?</div>
-    <input type="text">
-    <div>Down Payment</div>
-    <input type="text">
-    <div>What state do you live in?</div>
-    <input type="text">
-    <div>Credit Rating</div>
-    <input type="radio" id ="Excellent" name ="credit" value ="Excellent">
-    <label for = "Excellent">Excellent(800+ FICO score)>
-    </form>
+  <body>
+    <h1 class="cal_title">Car Payment Calculator</h1>
+    <p class="choices">Payment Plan</p>
+    <div class="info_box">
+      <div class="inside_box">
+        <form>
+          <p>Lets Personalize A Budget for You!</p>
+          <div>
+            <p class="label">Vehicle Budget</p>
+            <input type="text" class="input_boxes" id="budget" />
+            <p class="label">Down Payment</p>
+            <input type="text" class="input_boxes" id="down_payment" />
+            <p class="label">State</p>
+            <select class="state_select">
+              <option>Alabama</option>
+              <option>Alaska</option>
+              <option>Arizona</option>
+              <option>Arkansas</option>
+              <option>California</option>
+              <option>Colorado</option>
+              <option>Connecticut</option>
+              <option>Delaware</option>
+              <option>Florida</option>
+              <option>Georgia</option>
+              <option>Hawaii</option>
+              <option>Idaho</option>
+              <option>Illinois</option>
+              <option>Indiana</option>
+              <option>Iowa</option>
+              <option>Kansas</option>
+              <option>Kentucky</option>
+              <option>Louisiana</option>
+              <option>Maine</option>
+              <option>Maryland</option>
+              <option>Massachusetts</option>
+              <option>Michigan</option>
+              <option>Minnesota</option>
+              <option>Mississippi</option>
+              <option>Missouri</option>
+              <option>Montana</option>
+              <option>Nebraska</option>
+              <option>Nevada</option>
+              <option>New Hampshire</option>
+              <option>New Jersey</option>
+              <option>New Mexico</option>
+              <option>New York</option>
+              <option>North Carolina</option>
+              <option>North Dakota</option>
+              <option>Ohio</option>
+              <option>Oklahoma</option>
+              <option>Oregon</option>
+              <option>Pennsylvania</option>
+              <option>Rhode Island</option>
+              <option>South Carolina</option>
+              <option>South Dakota</option>
+              <option>Tennessee</option>
+              <option>Texas</option>
+              <option>Utah</option>
+              <option>Vermont</option>
+              <option>Virginia</option>
+              <option>Washington</option>
+              <option>West Virginia</option>
+              <option>Wisconsin</option>
+              <option>Wyoming</option>
+            </select>
+            <p class="label">Credit Rating</p>
+          </div>
+          <select class="credit_score">
+            <option>Excellent (800 Credit Score)</option>
+            <option>Very Good (740 - 790 Credit Score)</option>
+            <option>Good (670 - 739 Credit Score)</option>
+            <option>Fair (580 - 669 Credit Score)</option>
+            <option>Challenged (< 580 Credit Score)</option>
+          </select>
+        </form>
+        <button class="button" id="button">Estimate</button>
+      </div>
+    </div>
   </body>
+  <script src="main.js"></script>
 </html>

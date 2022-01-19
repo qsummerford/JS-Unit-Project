@@ -80,3 +80,27 @@ prev_arrow2.addEventListener("click", () => {
   prev_arrow2.style.display = "none";
   next_cars.style.display = "none";
 });
+
+const brand_button = document.querySelector("#brand_dropdown");
+const brand_dropdown = document.querySelector("#all_brands");
+brand_dropdown.style.display = "none";
+
+brand_button.addEventListener("click", () => {
+  if (brand_dropdown.style.display == "none") {
+    brand_dropdown.style.display = "flex";
+    brand_button.textContent = "See Fewer Brands";
+  } else {
+    brand_dropdown.style.display = "none";
+    brand_button.textContent = "See All Brands";
+  }
+});
+
+var vehicle_budget = document.querySelector("#budget");
+var down_payement = document.querySelector("#down_payment");
+var est_button = document.querySelector("#button");
+
+// est_button.addEventListener('click', () => {
+//   var begin = vehicle_budget.value - (down_payement.value + 1500);
+//   var total = begin / 36;
+//   return total;
+// })

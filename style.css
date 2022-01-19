@@ -191,3 +191,201 @@ html {
   height: 40%;
   width: 40%;
 }
+
+.next_img2 {
+  height: 8%;
+  width: 8%;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.next_img2:hover {
+  box-shadow: 2px 2px 2px 2px #c4c4c4;
+  border-radius: 2em;
+}
+
+.car_brand {
+  border: 0.1px solid #c4c4c4;
+  padding: 0;
+  margin: 0;
+  border-radius: 2px;
+}
+
+.car_brand:hover {
+  cursor: pointer;
+  box-shadow: 1px 5px 7px 9px #f5f5f5;
+}
+
+.grotti_pic {
+  height: 60%;
+  width: 60%;
+  padding: 1.5px;
+}
+
+.bravado_pic {
+  height: 70%;
+  width: 70%;
+  padding: 4.5px;
+}
+
+.bene_pic {
+  height: 70%;
+  width: 70%;
+  padding: 5.5px;
+}
+
+.hijak_pic {
+  height: 70%;
+  width: 70%;
+  padding: 5.5px;
+}
+
+.karin_pic {
+  height: 70%;
+  width: 70%;
+  padding: 5.5px;
+}
+
+.annis_pic {
+  height: 70%;
+  width: 70%;
+  padding: 5.5px;
+}
+
+.emperor_pic {
+  height: 70%;
+  width: 70%;
+  padding: 5.5px;
+}
+
+.canis_pic {
+  height: 70%;
+  width: 70%;
+  padding: 7.3px;
+}
+
+.dinka_pic {
+  height: 70%;
+  width: 70%;
+  padding: 16.5px;
+}
+
+.brand_dropdown {
+  padding: 19.5px;
+}
+
+.all_brands {
+  display: flex;
+  text-align: center;
+  margin-left: 310px;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.brand_column {
+  flex: 10%;
+  padding: 1px;
+}
+
+.price_flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 310px;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.price_column {
+  flex: 1%;
+}
+
+.car_price {
+  border: 0.1px solid #c4c4c4;
+  padding: 0;
+  margin: 0;
+  border-radius: 2px;
+  width: 25%;
+  margin-left: 300px;
+}
+.car_price:hover {
+  cursor: pointer;
+  color: #049;
+}
+
+.price_text {
+  margin-left: 10px;
+}
+
+.state_select {
+  border: hidden;
+  border-bottom: 0.1px solid black;
+  width: 59%;
+  font-size: 15px;
+  padding: 2px;
+}
+
+.info_box {
+  margin-top: 20px;
+  border: 2px solid #c4c4c4;
+  margin-left: 500px;
+  border-radius: 0.4em;
+  width: 31%;
+  display: flex;
+}
+
+.inside_box {
+  margin-left: 50px;
+  line-height: 25px;
+}
+
+.choices {
+  font-size: 15px;
+  text-align: center;
+}
+
+.cal_title {
+  text-align: center;
+  color: #049;
+}
+
+.credit_score {
+  border: hidden;
+  border-bottom: 1px solid black;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 15px;
+}
+
+.input_boxes {
+  border: hidden;
+  border-bottom: 1px solid black;
+  padding: 2px;
+  width: 70%;
+}
+
+.plate_num {
+  border: hidden;
+  border-bottom: 1px solid black;
+  padding: 2px;
+  width: 50%;
+}
+
+.plate_box {
+  margin-top: 20px;
+  border: 2px solid #c4c4c4;
+  margin-left: 500px;
+  border-radius: 0.4em;
+  width: 30%;
+  background-color: white;
+  color: black;
+}
+
+.zip_code {
+  border: hidden;
+  border-bottom: 0.1px solid black;
+  width: 50%;
+}
