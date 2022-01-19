@@ -149,7 +149,7 @@ html {
   height: 8%;
   width: 8%;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 19px;
 }
 
 .prev_img:hover {
@@ -388,4 +388,6 @@ html {
   border: hidden;
   border-bottom: 0.1px solid black;
   width: 50%;
+}
+@media screen and (max-width: 750px) and (min-width: 200px) {
 }
