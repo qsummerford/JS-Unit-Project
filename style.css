@@ -83,7 +83,7 @@ html {
 }
 
 .column {
-  flex: 10%;
+  flex: 35%;
   padding: 5px;
 }
 
@@ -389,5 +389,14 @@ html {
   border-bottom: 0.1px solid black;
   width: 50%;
 }
-@media screen and (max-width: 750px) and (min-width: 200px) {
+@media screen and (max-width: 1024px) and (min-width: 200px) {
+  .nav_bar {
+    width: 1436px;
+  }
+  .car_descript {
+    font-size: 10px;
+  }
+  .brand_dropdown {
+    font-size: 10px;
+  }
 }
