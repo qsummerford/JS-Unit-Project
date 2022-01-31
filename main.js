@@ -89,6 +89,7 @@ brand_button.addEventListener("click", () => {
   if (brand_dropdown.style.display == "none") {
     brand_dropdown.style.display = "flex";
     brand_button.textContent = "See Fewer Brands";
+    brand_button.style.padding = "21.2px";
   } else {
     brand_dropdown.style.display = "none";
     brand_button.textContent = "See All Brands";
