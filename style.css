@@ -389,7 +389,7 @@ html {
   border-bottom: 0.1px solid black;
   width: 50%;
 }
-@media screen and (max-width: 1024px) and (min-width: 200px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
   .nav_bar {
     width: 1436px;
   }
@@ -623,5 +623,504 @@ html {
 
   .submit_button {
     margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .nav_bar {
+    width: 1436px;
+  }
+  .car_descript {
+    font-size: 10px;
+  }
+  .pickup_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .suv_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .sedan_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .cross_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .coupe_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .next_img {
+    height: 8%;
+    width: 8%;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .next_img:hover {
+    box-shadow: 2px 2px 2px 2px #c4c4c4;
+    border-radius: 2em;
+  }
+
+  .prev {
+    display: flex;
+    text-align: center;
+  }
+
+  .next {
+    display: flex;
+    text-align: center;
+  }
+
+  .prev_img {
+    height: 8%;
+    width: 8%;
+    cursor: pointer;
+    margin-top: 19px;
+  }
+
+  .prev_img:hover {
+    box-shadow: 2px 2px 2px 2px #c4c4c4;
+    border-radius: 2em;
+  }
+
+  .sports_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .lux_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .van_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .diesel_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .electric_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .convert_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .wagons_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .next_img2 {
+    height: 8%;
+    width: 8%;
+    cursor: pointer;
+    margin-top: 18px;
+  }
+
+  .next_img2:hover {
+    box-shadow: 2px 2px 2px 2px #c4c4c4;
+    border-radius: 2em;
+  }
+
+  .car_brand {
+    border: 0.1px solid #c4c4c4;
+    padding: 0;
+    margin: 0;
+    border-radius: 2px;
+  }
+
+  .car_brand:hover {
+    cursor: pointer;
+    box-shadow: 1px 5px 7px 9px #f5f5f5;
+  }
+
+  .grotti_pic {
+    height: 70%;
+    width: 70%;
+    padding: 2.5px;
+  }
+
+  .bravado_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5px;
+  }
+
+  .bene_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .hijak_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .karin_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .annis_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .emperor_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .canis_pic {
+    height: 80%;
+    width: 80%;
+    padding: 6px;
+  }
+
+  .dinka_pic {
+    height: 48%;
+    width: 48%;
+    padding: 19px;
+  }
+
+  .brand_dropdown {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .car_price {
+    border: 0.1px solid #c4c4c4;
+    padding: 0;
+    margin: 0;
+    border-radius: 2px;
+    width: 50%;
+    margin-left: 300px;
+    font-size: 18px;
+  }
+  .car_price:hover {
+    cursor: pointer;
+    color: #049;
+  }
+
+  .price_text {
+    margin-left: 10px;
+  }
+
+  .choices {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 590px;
+  }
+
+  .cal_title {
+    text-align: center;
+    color: #049;
+    margin-left: 600px;
+  }
+
+  .cal_sentence {
+    margin-right: 5px;
+  }
+
+  .estimate_button {
+    margin-left: 85px;
+  }
+
+  .estimate_box {
+    padding: 5px;
+  }
+
+  .submit_box {
+    padding: 5px;
+  }
+
+  .submit_button {
+    margin-left: 25px;
+  }
+
+  .plate_box {
+    margin-left: 560px;
+  }
+
+  .info_box {
+    margin-left: 500px;
+    width: 50%;
+  }
+  .inside_box {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  .nav_bar {
+    width: 2560px;
+  }
+  .car_descript {
+    font-size: 10px;
+  }
+  .pickup_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .suv_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .sedan_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .cross_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .coupe_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .next_img {
+    height: 8%;
+    width: 8%;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .next_img:hover {
+    box-shadow: 2px 2px 2px 2px #c4c4c4;
+    border-radius: 2em;
+  }
+
+  .prev {
+    display: flex;
+    text-align: center;
+  }
+
+  .next {
+    display: flex;
+    text-align: center;
+  }
+
+  .prev_img {
+    height: 8%;
+    width: 8%;
+    cursor: pointer;
+    margin-top: 19px;
+  }
+
+  .prev_img:hover {
+    box-shadow: 2px 2px 2px 2px #c4c4c4;
+    border-radius: 2em;
+  }
+
+  .sports_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .lux_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .van_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .diesel_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .electric_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .convert_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .wagons_pic {
+    height: 80%;
+    width: 80%;
+  }
+
+  .next_img2 {
+    height: 8%;
+    width: 8%;
+    cursor: pointer;
+    margin-top: 18px;
+  }
+
+  .next_img2:hover {
+    box-shadow: 2px 2px 2px 2px #c4c4c4;
+    border-radius: 2em;
+  }
+
+  .car_brand {
+    border: 0.1px solid #c4c4c4;
+    padding: 0;
+    margin: 0;
+    border-radius: 2px;
+  }
+
+  .car_brand:hover {
+    cursor: pointer;
+    box-shadow: 1px 5px 7px 9px #f5f5f5;
+  }
+
+  .grotti_pic {
+    height: 70%;
+    width: 70%;
+    padding: 2.5px;
+  }
+
+  .bravado_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5px;
+  }
+
+  .bene_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .hijak_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .karin_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .annis_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .emperor_pic {
+    height: 80%;
+    width: 80%;
+    padding: 5.5px;
+  }
+
+  .canis_pic {
+    height: 80%;
+    width: 80%;
+    padding: 6px;
+  }
+
+  .dinka_pic {
+    height: 48%;
+    width: 48%;
+    padding: 19px;
+  }
+
+  .brand_dropdown {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .car_price {
+    border: 0.1px solid #c4c4c4;
+    padding: 0;
+    margin: 0;
+    border-radius: 2px;
+    width: 50%;
+    margin-left: 300px;
+    font-size: 18px;
+  }
+  .car_price:hover {
+    cursor: pointer;
+    color: #049;
+  }
+
+  .price_text {
+    margin-left: 10px;
+  }
+
+  .choices {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 590px;
+  }
+
+  .cal_title {
+    text-align: center;
+    color: #049;
+    margin-left: 600px;
+  }
+
+  .cal_sentence {
+    margin-right: 5px;
+  }
+
+  .estimate_button {
+    margin-left: 85px;
+  }
+
+  .estimate_box {
+    padding: 5px;
+  }
+
+  .submit_box {
+    padding: 5px;
+  }
+
+  .submit_button {
+    margin-left: 25px;
+  }
+
+  .plate_box {
+    margin-left: 560px;
+  }
+
+  .info_box {
+    margin-left: 500px;
+    width: 50%;
+  }
+  .inside_box {
+    padding: 0;
+  }
+  .straight_away {
+    width: 2564px;
+    height: 350px;
+    border-radius: 0 0 0.4em 0.4em;
   }
 }
