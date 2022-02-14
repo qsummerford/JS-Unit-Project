@@ -878,7 +878,7 @@ html {
     width: 2560px;
   }
   .car_descript {
-    font-size: 10px;
+    font-size: 20px;
   }
   .pickup_pic {
     height: 80%;
@@ -909,7 +909,7 @@ html {
     height: 8%;
     width: 8%;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .next_img:hover {
@@ -931,7 +931,7 @@ html {
     height: 8%;
     width: 8%;
     cursor: pointer;
-    margin-top: 19px;
+    margin-top: 44px;
   }
 
   .prev_img:hover {
@@ -978,7 +978,7 @@ html {
     height: 8%;
     width: 8%;
     cursor: pointer;
-    margin-top: 18px;
+    margin-top: 44px;
   }
 
   .next_img2:hover {
@@ -999,62 +999,62 @@ html {
   }
 
   .grotti_pic {
-    height: 70%;
-    width: 70%;
+    height: 60%;
+    width: 60%;
     padding: 2.5px;
   }
 
   .bravado_pic {
-    height: 80%;
-    width: 80%;
-    padding: 5px;
+    height: 70%;
+    width: 70%;
+    padding: 8px;
   }
 
   .bene_pic {
-    height: 80%;
-    width: 80%;
-    padding: 5.5px;
+    height: 70%;
+    width: 70%;
+    padding: 8.5px;
   }
 
   .hijak_pic {
-    height: 80%;
-    width: 80%;
-    padding: 5.5px;
+    height: 70%;
+    width: 70%;
+    padding: 8.5px;
   }
 
   .karin_pic {
-    height: 80%;
-    width: 80%;
-    padding: 5.5px;
+    height: 70%;
+    width: 70%;
+    padding: 8.5px;
   }
 
   .annis_pic {
-    height: 80%;
-    width: 80%;
-    padding: 5.5px;
+    height: 70%;
+    width: 70%;
+    padding: 8.5px;
   }
 
   .emperor_pic {
-    height: 80%;
-    width: 80%;
-    padding: 5.5px;
+    height: 70%;
+    width: 70%;
+    padding: 8.5px;
   }
 
   .canis_pic {
-    height: 80%;
-    width: 80%;
-    padding: 6px;
+    height: 70%;
+    width: 70%;
+    padding: 11px;
   }
 
   .dinka_pic {
     height: 48%;
     width: 48%;
-    padding: 19px;
+    padding: 48px;
   }
 
   .brand_dropdown {
-    padding: 10px;
-    font-size: 10px;
+    padding: 44.5px;
+    font-size: 23px;
   }
 
   .car_price {
@@ -1078,17 +1078,16 @@ html {
   .choices {
     font-size: 15px;
     text-align: center;
-    margin-left: 590px;
   }
 
   .cal_title {
     text-align: center;
     color: #049;
-    margin-left: 600px;
   }
 
   .cal_sentence {
     margin-right: 5px;
+    font-size: 20px;
   }
 
   .estimate_button {
@@ -1108,19 +1107,64 @@ html {
   }
 
   .plate_box {
-    margin-left: 560px;
+    margin-left: 1100px;
+    width: 15%;
   }
 
   .info_box {
-    margin-left: 500px;
-    width: 50%;
+    margin-left: 1100px;
+    width: 15%;
   }
   .inside_box {
     padding: 0;
+    margin-right: 15px;
   }
   .straight_away {
     width: 2564px;
     height: 350px;
     border-radius: 0 0 0.4em 0.4em;
+  }
+  .links {
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .person {
+    height: auto;
+    width: 4%;
+    margin-left: 1650px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: black;
+  }
+
+  #sign_in {
+    margin-top: 75px;
+  }
+  .shop_brand {
+    font-size: 23px;
+  }
+
+  .shop_type {
+    font-size: 23px;
+  }
+
+  .shop_price {
+    font-size: 23px;
+  }
+  .all_brands {
+    font-size: 20px;
+  }
+
+  .car_price {
+    width: 30%;
+  }
+
+  .price_text {
+    font-size: 20px;
+  }
+  .label {
+    font-size: 18px;
   }
 }
